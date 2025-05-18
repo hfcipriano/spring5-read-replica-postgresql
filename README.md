@@ -5,6 +5,8 @@ Spring boot 2.7.18 (spring 5.3.31, last version for JDK 8/11) Proof of Concept f
 
 ## USEFUL FOR JDK 8 AND 11 APPLICATIONS (THAT FOR SOME REASON CANT BE UPGRADED TO JDK 17+ TO USE SPRING 6 / NEW SPEC JAKARTA EE & HIBERNATE 6)
 
+# PS: On Hibernate 6, the LazyConnectionDataSourceProxy has a much simpler property to add a readOnly datasource, making ReplicationRoutingDataSource class unnecessary
+
 Code architecture Credit (on Hibernate 6): [rajadilipkolli](https://github.com/rajadilipkolli/my-spring-boot-experiments/tree/main/jpa/boot-read-replica-postgresql)
 
 This project is an example to show how we can separate read and write operations to primary and replica databases using spring boot and postgresql database.
