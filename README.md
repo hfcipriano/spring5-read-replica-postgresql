@@ -1,7 +1,7 @@
 # spring5-read-replica-postgresql
-This project targets legacy environments (JDK 8/11) that rely on Spring 5.x and javax-based APIs, offering an alternative to Spring 6 and Jakarta EE 9+ which require JDK 17 or higher.
-
 Spring boot 2.7.18 (spring 5.3.31, last version for JDK 8/11) Proof of Concept for read write replicas on PostgreSQL.
+
+This project targets legacy environments (JDK 8/11) that rely on Spring 5.x and javax-based APIs, offering an alternative to Spring 6 and Jakarta EE 9+ which require JDK 17 or higher.
 
 ## USEFUL FOR JDK 8 AND 11 APPLICATIONS (THAT FOR SOME REASON CANT BE UPGRADED TO JDK 17+ TO USE SPRING 6 / NEW SPEC JAKARTA EE & HIBERNATE 6)
 
