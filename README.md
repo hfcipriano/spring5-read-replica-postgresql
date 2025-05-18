@@ -24,30 +24,6 @@ Architecture Image Credit : [Vlad](https://twitter.com/vlad_mihalcea)
 2. **Performance Optimization**: Minimizes load on the primary, improving overall throughput.
 3. **LazyConnectionDataSourceProxy**: Ensures a single `DataSource` bean but dynamically determines read vs. write at runtime.
 
----
-
-## Liquibase
-Use below script for generating the difference in the database
-
-```shell
-./diff.sh
-```
-
-### Run tests
-```shell
-./mvnw clean verify
-```
-
-### Run locally
-```shell
-docker-compose -f docker/docker-compose.yml up -d
-./mvnw spring-boot:run -Dspring-boot.run.profiles=local
-```
-
-### Useful Links
-* Swagger UI: http://localhost:8080/swagger-ui.html
-* Actuator Endpoint: http://localhost:8080/actuator
-* PgAdmin : http://localhost:5050(pgadmin4@pgadmin.org/admin)
-
 ### Reference
+- (code base and instructions to run postgres master and replica on docker) https://github.com/rajadilipkolli/my-spring-boot-experiments/tree/main/jpa/boot-read-replica-postgresql 
 - https://stackoverflow.com/questions/25911359/how-to-split-read-only-and-read-write-transactions-with-jpa-and-hibernate/26026237#26026237
