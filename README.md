@@ -1,5 +1,5 @@
 # spring5-read-replica-postgresql
-Spring boot 2.7.18 (spring 5.3.31, last version for JDK 8) Prof of Concept for read write replicas on PostgreSQL
+Spring boot 2.7.18 (spring 5.3.31, last version for JDK 8/11) Proof of Concept for read write replicas on PostgreSQL
 
 This project is an example to show how we can separate read and write operations to primary and replica databases using spring boot and postgresql database.
 (using Spring boot 2.7.18 and spring 5.3.31, last version before hibernate 6 that uses JDK17+).
